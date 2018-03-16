@@ -3,8 +3,8 @@ function checkUsername (){
   if (this.value.length < 5 ){
     elMsgTextContent = "username must be 5 character or more"
   }else{
-    elMsg = " ";
+    elMsg.textContent = " ";
   }
 }
 var elUsername= document.getElementById('username');
-elUsername.onblur = checkUsername; 
+elUsername.onblur = checkUsername;
