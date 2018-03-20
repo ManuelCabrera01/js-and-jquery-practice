@@ -21,4 +21,4 @@ if (elUsrenamr.addEventListener){
   elUsername.attachEvent('onblur', function(e){
     checkLength(e,5);
   });
-}
+} 
